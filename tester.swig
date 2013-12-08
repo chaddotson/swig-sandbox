@@ -11,20 +11,21 @@
 extern void print_it();
 extern int int_test();
 
+
+
 namespace test
 {
 
     class ClassTest
     {
-        private:
-            int privateIntVar;
         public:
-            ClassTest* Create(int intVar);
+            static ClassTest* Create(int intVar);
             int IntVar();
         private:
             ClassTest(int intVar);
         
     };
+
 }
 
 

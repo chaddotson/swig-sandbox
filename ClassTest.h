@@ -9,7 +9,7 @@ namespace test
         private:
             int privateIntVar;
         public:
-            ClassTest* Create(int intVar);
+            static ClassTest* Create(int intVar);
             int IntVar();
         private:
             ClassTest(int intVar);
